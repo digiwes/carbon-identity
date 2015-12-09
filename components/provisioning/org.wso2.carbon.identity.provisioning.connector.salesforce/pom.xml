@@ -101,7 +101,7 @@
                             org.wso2.carbon.identity.provisioning.connector.salesforce.internal
                         </Private-Package>
                         <Import-Package>
-                            org.json; version="[0.0.0,0.1.0)",
+                            org.json; version="2.0.0.wso2v1" ,
                             org.apache.commons.lang; version="${commons-lang.wso2.osgi.version.range}",
                             org.apache.commons.logging; version="${commons-logging.osgi.version.range}",
                             org.apache.commons.httpclient.*; version="${commons-httpclient.wso2.osgi.version}",
