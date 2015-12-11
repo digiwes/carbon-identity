@@ -25,7 +25,7 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>org.wso2.carbon.user.mgt.feature</artifactId>
+    <artifactId>org.wso2.carbon.user.mgt.identity.feature</artifactId>
     <packaging>pom</packaging>
     <name>User Management Feature</name>
     <url>http://wso2.org</url>
@@ -65,10 +65,10 @@
 
                             <includedFeatures>
                                 <includedFeatureDef>
-                                    org.wso2.carbon.identity:org.wso2.carbon.user.mgt.server.feature:${carbon.identity.version}
+                                    org.wso2.carbon.identity:org.wso2.carbon.user.mgt.server.identity.feature:${carbon.identity.version}
                                 </includedFeatureDef>
                                 <includedFeatureDef>
-                                    org.wso2.carbon.identity:org.wso2.carbon.user.mgt.ui.feature:${carbon.identity.version}
+                                    org.wso2.carbon.identity:org.wso2.carbon.user.mgt.ui.identity.feature:${carbon.identity.version}
                                 </includedFeatureDef>
                             </includedFeatures>
                         </configuration>

@@ -51,7 +51,7 @@
                             <goal>p2-feature-gen</goal>
                         </goals>
                         <configuration>
-                            <id>org.wso2.carbon.user.mgt.ui</id>
+                            <id>org.wso2.carbon.user.mgt.ui.identity.account</id>
                             <propertiesFile>../../../etc/feature.properties</propertiesFile>
                             <adviceFile>
                                 <properties>
@@ -64,7 +64,7 @@
                             </bundles>
                             <importFeatures>
                                 <importFeatureDef>org.wso2.carbon.core.ui:${carbon.kernel.version}</importFeatureDef>
-                                <importFeatureDef>org.wso2.carbon.user.mgt.ui:${carbon.identity.version}</importFeatureDef>
+                                <importFeatureDef>org.wso2.carbon.user.mgt.ui.identity:${carbon.identity.version}</importFeatureDef>
                                 <importFeatureDef>org.wso2.carbon.claim.mgt.ui:${carbon.identity.version}</importFeatureDef>
                             </importFeatures>
                         </configuration>

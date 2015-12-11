@@ -25,7 +25,7 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>org.wso2.carbon.user.mgt.ui.feature</artifactId>
+    <artifactId>org.wso2.carbon.user.mgt.ui.identity.feature</artifactId>
     <packaging>pom</packaging>
     <name>User Manager UI Feature</name>
     <url>http://wso2.org</url>
@@ -77,7 +77,7 @@
                             <goal>p2-feature-gen</goal>
                         </goals>
                         <configuration>
-                            <id>org.wso2.carbon.user.mgt.ui</id>
+                            <id>org.wso2.carbon.user.mgt.ui.identity</id>
                             <propertiesFile>../../etc/feature.properties</propertiesFile>
                             <adviceFile>
                                 <properties>
