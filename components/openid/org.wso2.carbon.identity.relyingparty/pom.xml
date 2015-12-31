@@ -110,7 +110,7 @@
 
                             javax.crypto,
                             javax.net.ssl,
-                            javax.xml.parsers,
+                            javax.xml.parsers;version="${javax.xml.parsers.import.pkg.version}",
                             javax.xml.namespace,
                             javax.xml.stream; version="${equinox.osgi.stax-api.imp.pkg.version.range}",
                             javax.servlet; version="${imp.pkg.version.javax.servlet}",

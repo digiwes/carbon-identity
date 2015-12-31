@@ -163,7 +163,7 @@
                             javax.crypto,
                             javax.crypto.spec,
                             javax.xml.namespace,
-                            javax.xml.parsers,
+                            javax.xml.parsers;version="${javax.xml.parsers.import.pkg.version}",
                             javax.management,
                             javax.naming.directory,
                             javax.security.auth.callback,
